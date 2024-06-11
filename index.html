@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Faturamento e Custo por Receita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Faturamento e Custo por Receita</h1>
+        <table>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Cálculo</th>
+            </tr>
+            <tr>
+                <td>Total de Tokens</td>
+                <td>5.000.000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Custo Total (R$)</td>
+                <td>997,00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tokens por Receita</td>
+                <td>2.103</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Receitas Totais em 30 dias</td>
+                <td>2.377</td>
+                <td>5.000.000 / 2.103</td>
+            </tr>
+            <tr>
+                <td>Custo por Receita (R$)</td>
+                <td>0,42</td>
+                <td>997,00 / 2.377</td>
+            </tr>
+            <tr>
+                <td>Preço de Venda por Receita (R$)</td>
+                <td>10,00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Faturamento Mensal (R$)</td>
+                <td>23.770,00</td>
+                <td>2.377 * 10,00</td>
+            </tr>
+            <tr>
+                <td>Lucro Desejado (%)</td>
+                <td>222</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Preço de Venda para Lucro de 222% (R$)</td>
+                <td>1,35</td>
+                <td>0,42 * (1 + 2,22)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
